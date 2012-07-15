@@ -43,7 +43,7 @@
     string = [[NSString alloc] initWithData: data encoding: NSUTF8StringEncoding];
     //NSLog (@"script returned:\n%@", string); 
     
-    NSMutableArray* array = [string componentsSeparatedByString:@"\n"];
+    NSMutableArray* array = [NSMutableArray arrayWithArray:[string componentsSeparatedByString:@"\n"]];
     [array removeLastObject];
     return array;
 }
@@ -81,7 +81,7 @@
     string = [[NSString alloc] initWithData: data encoding: NSUTF8StringEncoding];
     //NSLog (@"script returned:\n%@", string); 
     
-    NSMutableArray* array = [string componentsSeparatedByString:@"\n"];
+    NSMutableArray* array = [NSMutableArray arrayWithArray:[string componentsSeparatedByString:@"\n"]];
     [array removeLastObject];
     return array;
 }

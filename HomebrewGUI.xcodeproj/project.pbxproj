@@ -112,11 +112,6 @@
 				1FE4FE6A148E4CDD008EDE8B /* AppDelegate.h */,
 				1FE4FE6B148E4CDD008EDE8B /* AppDelegate.m */,
 				1FE4FE6D148E4CDD008EDE8B /* MainMenu.xib */,
-				1FE4FEFE149249CD008EDE8B /* Download.png */,
-				1FE4FEFF149249CE008EDE8B /* Info.png */,
-				1FE4FF00149249CE008EDE8B /* Install.png */,
-				1FE4FF01149249CF008EDE8B /* Refresh.png */,
-				1FE4FF02149249CF008EDE8B /* Uninstall.png */,
 				1FE4FE5F148E4CDD008EDE8B /* Supporting Files */,
 				1FE4FE75148E4D43008EDE8B /* BrewInterface.h */,
 				1FE4FE76148E4D43008EDE8B /* BrewInterface.m */,
@@ -131,10 +126,7 @@
 		1FE4FE5F148E4CDD008EDE8B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				1FE4FEB6148F94F1008EDE8B /* Revive-Web-Add.png */,
-				1FE4FEB7148F94F1008EDE8B /* Revive-Web-Delete.png */,
-				1FE4FEBA148F9605008EDE8B /* Revive-Web-Refresh.png */,
-				1FE4FEBC148F9730008EDE8B /* Revive-Web-Magnify-Glass.png */,
+				FBAD33C515B317BB00C0944B /* Images */,
 				1FE4FE60148E4CDD008EDE8B /* HomebrewGUI-Info.plist */,
 				1FE4FE61148E4CDD008EDE8B /* InfoPlist.strings */,
 				1FE4FE64148E4CDD008EDE8B /* main.m */,
@@ -142,6 +134,22 @@
 				1FE4FE67148E4CDD008EDE8B /* Credits.rtf */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FBAD33C515B317BB00C0944B /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				1FE4FEFE149249CD008EDE8B /* Download.png */,
+				1FE4FEFF149249CE008EDE8B /* Info.png */,
+				1FE4FF00149249CE008EDE8B /* Install.png */,
+				1FE4FF01149249CF008EDE8B /* Refresh.png */,
+				1FE4FF02149249CF008EDE8B /* Uninstall.png */,
+				1FE4FEB6148F94F1008EDE8B /* Revive-Web-Add.png */,
+				1FE4FEB7148F94F1008EDE8B /* Revive-Web-Delete.png */,
+				1FE4FEBA148F9605008EDE8B /* Revive-Web-Refresh.png */,
+				1FE4FEBC148F9730008EDE8B /* Revive-Web-Magnify-Glass.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -340,6 +348,7 @@
 				1FE4FE74148E4CDD008EDE8B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

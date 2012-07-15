@@ -89,8 +89,8 @@
 
 -(id)tableView:(NSTableView *)tableView objectValueForTableColumn:(NSTableColumn *)tableColumn row:(NSInteger)row {
     // the return value is typed as (id) because it will return a string in all cases with the exception of the
+    id returnValue=nil;
     if(arrayOfApplicationInstalled) {
-        id returnValue=nil;
         
         // The column identifier string is the easiest way to identify a table column. Much easier
         // than keeping a reference to the table column object.
@@ -111,8 +111,8 @@
         }
         
         
-        return returnValue;
     }
+    return returnValue;
 }
 
 #pragma mark - NSTableView Delegate
