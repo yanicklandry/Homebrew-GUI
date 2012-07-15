@@ -25,6 +25,7 @@
 		1FE4FF05149249CF008EDE8B /* Install.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FE4FF00149249CE008EDE8B /* Install.png */; };
 		1FE4FF06149249CF008EDE8B /* Refresh.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FE4FF01149249CF008EDE8B /* Refresh.png */; };
 		1FE4FF07149249CF008EDE8B /* Uninstall.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FE4FF02149249CF008EDE8B /* Uninstall.png */; };
+		FBAD33CC15B3269700C0944B /* Witchs-Brew-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FBAD33CB15B3269700C0944B /* Witchs-Brew-icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +57,7 @@
 		1FE4FF00149249CE008EDE8B /* Install.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Install.png; sourceTree = "<group>"; };
 		1FE4FF01149249CF008EDE8B /* Refresh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Refresh.png; sourceTree = "<group>"; };
 		1FE4FF02149249CF008EDE8B /* Uninstall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Uninstall.png; sourceTree = "<group>"; };
+		FBAD33CB15B3269700C0944B /* Witchs-Brew-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Witchs-Brew-icon.png"; path = "../Witchs-Brew-icon.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +141,7 @@
 		FBAD33C515B317BB00C0944B /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				FBAD33CB15B3269700C0944B /* Witchs-Brew-icon.png */,
 				1FE4FEFE149249CD008EDE8B /* Download.png */,
 				1FE4FEFF149249CE008EDE8B /* Info.png */,
 				1FE4FF00149249CE008EDE8B /* Install.png */,
@@ -214,6 +217,7 @@
 				1FE4FF05149249CF008EDE8B /* Install.png in Resources */,
 				1FE4FF06149249CF008EDE8B /* Refresh.png in Resources */,
 				1FE4FF07149249CF008EDE8B /* Uninstall.png in Resources */,
+				FBAD33CC15B3269700C0944B /* Witchs-Brew-icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

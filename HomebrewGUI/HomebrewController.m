@@ -168,4 +168,13 @@
         [MainToolbarItem_Uninstall setAction:@selector(uninstall:)]; 
     }
 }
+
+-(IBAction) updateFormulae:(id)sender {
+    [BrewInterface update];
+}
+
+- (IBAction)upgradePackages:(id)sender {
+    [BrewInterface upgrade:nil];
+}
+
 @end

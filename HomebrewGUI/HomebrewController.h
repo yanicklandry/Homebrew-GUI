@@ -31,4 +31,7 @@
 -(IBAction) showHUDAbout:(id)sender;
 -(IBAction) showHUDMoreInfo:(id)sender;
 -(IBAction) uninstall:(id)sender;
+-(IBAction) updateFormulae:(id)sender;
+-(IBAction) upgradePackages:(id)sender;
+
 @end
